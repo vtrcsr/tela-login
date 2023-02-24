@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) and (max-width:992px){ 
+  body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,9,121,1) 35%, rgba(160,0,255,1) 100%);
+  }
+  #login{
+    width: 90vw;
+    height: 280px;
+  }
+  #img{
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+
+  #form{
+    float: right;
+    width: 65%;
+  }
+}
+
+@media screen and (min-width:992px){
+  body{
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(46,9,121,1) 35%, rgba(160,0,255,1) 100%);
+ }
+ #login{
+    width: 960px;
+    height: 350px;
+ }
+ #img{
+   float: right;
+   width: 45%;
+   height: 100%;
+ }
+
+ #form{
+   float: left;
+   width: 50%;
+ }
+}
+
+#form h1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+}
+
+#form p{
+  font-size: 0.8rem;
+}
